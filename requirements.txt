@@ -1,2 +1,8 @@
+## Stripe Demo
 Flask==0.10.1
 stripe==1.22.1
+
+## PayPal Demo
+Django==1.8
+django-paypal==0.2.2
+pytz==2015.2
