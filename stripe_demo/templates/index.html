@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Stripe Demo</title>
+  </head>
+  <body>
+    <h1>Pay Here</h1>
+    <form action="/" method="POST">
+      <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="{{ public_key }}"
+        data-image="http://photos3.meetupstatic.com/photos/event/7/4/7/e/global_268229822.jpeg"
+        data-name="PyWeb Houston"
+        data-description="Phat Donation"
+        data-amount="2500">
+      </script>
+    </form>
+  </body>
+</html>
